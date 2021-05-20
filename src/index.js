@@ -104,21 +104,5 @@ function appendTech(tech, xInitialPostion, yInitialPostion, xFinalPostion, yFina
         if (!err) resolve()
         else reject()
       });
-    // resolve()
   })
 }
-
-// gm(200, 400, "#ddff99f3")
-// .drawText(10, 50, "from scratch")
-// .write("/path/to/brandNewImg.jpg", function (err) {
-//   // ...
-// });
-// gm(1920, 1080, '#4c4cfc')
-// .fill('#FFFFFF')
-// .fontSize('46')
-// .out('-background', '#4c4cfc')
-// .out('-size', '1020x', 'caption:' + 'um textão bem grandão para não caber e ter que quebar a linha')
-// .out('-composite')
-// .write('./brandNewImg.jpg', (err) => {
-//   console.log(err);
-// });
